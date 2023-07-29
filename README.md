@@ -5,7 +5,7 @@
    Practice On SASS
 </div>
 
-<div><h3>Demo: </h3><a href="https://stellular-cascaron-7c9044.netlify.app" target="_blank">https://stellular-cascaron-7c9044.netlify.app</a></div>
+<div><h3>Demo: </h3><a href="https://dreamy-brigadeiros-747548.netlify.app/" target="_blank">https://dreamy-brigadeiros-747548.netlify.app/</a></div>
 
 
 
