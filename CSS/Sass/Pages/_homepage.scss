@@ -1,0 +1,116 @@
+// Start Slider
+.slider {
+  text-align: center;
+  blockquote {
+    font-size: 20px;
+    margin: 30px auto;
+    line-height: 1.8;
+    font-style: italic;
+    color: #5e5e5e;
+    width: 80%;
+  }
+  img {
+    max-width: 100%;
+  }
+  .bullets {
+    @include list-reset;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    li {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin-left: 10px;
+      background-color: $grayColor;
+      border: 3px solid $grayColor;
+      transition: 0.2s;
+      cursor: pointer;
+      &.active,
+      &:hover {
+        background-color: #fff;
+        border: 3px solid #333;
+      }
+    }
+  }
+}
+// End Slider
+// Start Services
+.services {
+  position: relative;
+  .container {
+    @include grid-box-3;
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+  .service-box {
+    h3 {
+      margin: 0 0 10px 0;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      @media (max-width: 767px) {
+        justify-content: center;
+      }
+      i {
+        font-size: 35px;
+        margin-right: 10px;
+      }
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: $grayColor;
+      margin: 0 0 10px 0;
+    }
+    a {
+      font-size: 22px;
+      color: $mainColor;
+      font-weight: bold;
+    }
+  }
+}
+// End Services
+// Start Our-Players
+.our-players {
+  position: relative;
+  .container {
+    @include grid-box-5;
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+  .player-box {
+    h3 {
+      margin: 10px 0;
+      font-weight: normal;
+      font-size: 22px;
+      span {
+        font-weight: bold;
+      }
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: $grayColor;
+      margin: 0 0 10px 0;
+    }
+    a {
+      font-size: 20px;
+      color: $mainColor;
+      font-weight: bold;
+    }
+  }
+}
+// End Our-Players
+// Start Section-3
+.lorem {
+  .container {
+    @include grid-box-3;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+// End Section-3

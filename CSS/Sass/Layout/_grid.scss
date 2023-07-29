@@ -1,0 +1,29 @@
+* {
+  @include prefixer(box-sizing, none, webkit moz);
+}
+a {
+  text-decoration: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+@include breakpoints(small) {
+  .container {
+    width: 750px;
+  }
+}
+@include breakpoints(medium) {
+  .container {
+    width: 970px;
+  }
+}
+@include breakpoints(large) {
+  .container {
+    width: 1170px;
+  }
+}
